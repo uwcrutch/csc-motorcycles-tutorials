@@ -1,0 +1,11 @@
+# Raw downloaded pages (too large for git)
+raw_pages/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
