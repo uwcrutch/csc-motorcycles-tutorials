@@ -2,7 +2,7 @@
 
 > **Community preservation of all CSC Motorcycles maintenance tutorials before site shutdown (July 2026)**
 
-CSC Motorcycles (cscmotorcycles.com) announced they are shutting down operations. This repository preserves their complete library of maintenance tutorials so owners can continue to service their bikes.
+CSC Motorcycles (cscmotorcycles.com) announced they are shutting down operations. This repository preserves their complete library of maintenance tutorials, owner manuals, service manuals, and YouTube tutorial video links so owners can continue to service their bikes.
 
 ## 🏍️ Models Covered
 
@@ -41,8 +41,10 @@ csc-motorcycles-tutorials/
 │           ├── sg250-fork-service/
 │           └── ...
 ├── pdfs/                   ← Downloadable PDF documents
-│   ├── SG250_Electrical_Schematic.pdf
-│   ├── TT250-Starting-Procedure_Rev01.pdf
+│   ├── Owner manuals (RX6, RX4, RX3, SG250, TT250, etc.)
+│   ├── Service manuals (RX6, RX4, SG400, Haylon)
+│   ├── E-bike manuals (FT750, FT1000MD, Bafang)
+│   ├── Wiring diagrams & procedures
 │   └── ...
 └── raw_pages/              ← Original downloaded HTML (reference)
 ```
@@ -57,13 +59,26 @@ csc-motorcycles-tutorials/
 ### Quick Access
 - All tutorials are organized by motorcycle model
 - Each tutorial includes step-by-step text instructions with photos
-- PDF documents (wiring diagrams, procedures) are in the `pdfs/` folder
+- PDF documents (owner manuals, service manuals, wiring diagrams) are in the `pdfs/` folder
+- YouTube tutorial videos are embedded with direct links as fallback
+
+## 📖 What's Included
+
+- **141 maintenance tutorials** with step-by-step instructions and 1,696 photos
+- **40 PDF documents** including:
+  - Owner's manuals for all motorcycle models
+  - Detailed service manuals (RX6, RX4, SG400, Haylon)
+  - E-bike owner's manuals and display manuals
+  - Wiring diagrams and technical procedures
+- **24 YouTube tutorial videos** (embedded with direct links)
+  - Most CSC YouTube videos are still **publicly accessible** as of July 2026
+  - Videos are embedded via YouTube iframe — no video files stored in this repo
+  - Direct YouTube links included below each embed as fallback
 
 ## ⚠️ What's NOT Included
 
-- **YouTube videos** — CSC set their YouTube channel to private before we could archive the videos. Only text and image tutorials are preserved.
-- **Parts catalog / store pages** — This archive focuses on maintenance tutorials only.
-- **Owner's manuals** — Some manuals may be included as PDFs where they were linked from the tutorials page.
+- **Downloaded video files** — Videos are linked/embedded from YouTube to keep the repo size manageable. If a video becomes private, the embed will show YouTube's "unavailable" message but the direct link is preserved.
+- **Parts catalog / store pages** — This archive focuses on maintenance tutorials and manuals only.
 
 ## 📜 Disclaimer
 
@@ -77,7 +92,7 @@ This is a **community preservation project**. All content was originally created
 
 If you have:
 - Additional CSC tutorials, guides, or technical documents
-- Cached copies of the YouTube tutorial videos
+- Cached copies of any private YouTube tutorial videos
 - Corrections or improvements to any tutorial content
 
 Please open a pull request or issue!
@@ -85,7 +100,9 @@ Please open a pull request or issue!
 ## 📅 Archive Date
 
 Archived: **July 2026**  
-Source: `cscmotorcycles.com/maintenance-tutorial-videos/`
+Sources:
+- `cscmotorcycles.com/maintenance-tutorial-videos/`
+- `cscmotorcycles.com/owner-service-manuals/`
 
 ---
 
